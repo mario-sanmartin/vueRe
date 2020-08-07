@@ -11,7 +11,8 @@ export default new Vuex.Store({
         {name:'Maye',profession:'Ingeniero Informatico',power: 5},
         {name:'Epica',profession:'Ingeniero Informatico',power: 6},
         {name:'Mario', profession:'Prograamdor y Analista',power: 2}
-      ]
+      ],
+      arrayFotos: [1,2,3,4,5,6,]
     
   },
   mutations: {
@@ -23,6 +24,7 @@ export default new Vuex.Store({
         challita.power = 0
       })
     }
+
   },
   actions: {
   },
